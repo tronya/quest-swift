@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E73504445382ACD8C4C94CE /* Pods_Quest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE74472752439F215CEAB16A /* Pods_Quest.framework */; };
 		CD4612651F5867AD006C1ECB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4612641F5867AD006C1ECB /* AppDelegate.swift */; };
 		CD4612671F5867AD006C1ECB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4612661F5867AD006C1ECB /* ViewController.swift */; };
 		CD46126A1F5867AD006C1ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4612681F5867AD006C1ECB /* Main.storyboard */; };
@@ -14,6 +15,14 @@
 		CD46126F1F5867AD006C1ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD46126D1F5867AD006C1ECB /* LaunchScreen.storyboard */; };
 		CD46127A1F5867AE006C1ECB /* QuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4612791F5867AE006C1ECB /* QuestTests.swift */; };
 		CD4612851F5867AE006C1ECB /* QuestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4612841F5867AE006C1ECB /* QuestUITests.swift */; };
+		CD8930981F5F25B700B39C1A /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8930971F5F25B700B39C1A /* MainScreen.swift */; };
+		CD89309A1F5F3E7D00B39C1A /* takenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8930991F5F3E7D00B39C1A /* takenModel.swift */; };
+		CD93BEB21F6FC82600E2791E /* ProjectVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93BEB11F6FC82600E2791E /* ProjectVars.swift */; };
+		CD9C69771F731C42003C9793 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9C69761F731C42003C9793 /* GameViewController.swift */; };
+		CDBDEC2F1F6FD9290066F44E /* QuestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBDEC2E1F6FD9290066F44E /* QuestTableViewCell.swift */; };
+		CDBDEC311F6FDCE40066F44E /* Quests_list.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBDEC301F6FDCE40066F44E /* Quests_list.swift */; };
+		CDBDEC341F6FF0880066F44E /* MarkersScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBDEC331F6FF0880066F44E /* MarkersScope.swift */; };
+		CDCF14281F7066B6007B8245 /* QuestDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCF14271F7066B6007B8245 /* QuestDetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C127C9F8399660AC23BB1E9 /* Pods-Quest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quest/Pods-Quest.debug.xcconfig"; sourceTree = "<group>"; };
+		B5466ACB66067A91ED325EC8 /* Pods-Quest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quest.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quest/Pods-Quest.release.xcconfig"; sourceTree = "<group>"; };
 		CD4612611F5867AD006C1ECB /* Quest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD4612641F5867AD006C1ECB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD4612661F5867AD006C1ECB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,15 @@
 		CD4612801F5867AE006C1ECB /* QuestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD4612841F5867AE006C1ECB /* QuestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestUITests.swift; sourceTree = "<group>"; };
 		CD4612861F5867AE006C1ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD8930971F5F25B700B39C1A /* MainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		CD8930991F5F3E7D00B39C1A /* takenModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = takenModel.swift; sourceTree = "<group>"; };
+		CD93BEB11F6FC82600E2791E /* ProjectVars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectVars.swift; sourceTree = "<group>"; };
+		CD9C69761F731C42003C9793 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CDBDEC2E1F6FD9290066F44E /* QuestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestTableViewCell.swift; sourceTree = "<group>"; };
+		CDBDEC301F6FDCE40066F44E /* Quests_list.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quests_list.swift; sourceTree = "<group>"; };
+		CDBDEC331F6FF0880066F44E /* MarkersScope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkersScope.swift; sourceTree = "<group>"; };
+		CDCF14271F7066B6007B8245 /* QuestDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestDetailController.swift; sourceTree = "<group>"; };
+		CE74472752439F215CEAB16A /* Pods_Quest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E73504445382ACD8C4C94CE /* Pods_Quest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +95,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BA3A2D0329921B761F13D33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C127C9F8399660AC23BB1E9 /* Pods-Quest.debug.xcconfig */,
+				B5466ACB66067A91ED325EC8 /* Pods-Quest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CD4612581F5867AD006C1ECB = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +111,8 @@
 				CD4612781F5867AE006C1ECB /* QuestTests */,
 				CD4612831F5867AE006C1ECB /* QuestUITests */,
 				CD4612621F5867AD006C1ECB /* Products */,
+				0BA3A2D0329921B761F13D33 /* Pods */,
+				CD5EA340BBCF27FA589BD34E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +130,14 @@
 			isa = PBXGroup;
 			children = (
 				CD4612641F5867AD006C1ECB /* AppDelegate.swift */,
-				CD4612661F5867AD006C1ECB /* ViewController.swift */,
 				CD4612681F5867AD006C1ECB /* Main.storyboard */,
+				CD9C69781F731C58003C9793 /* Controllers */,
+				CDBDEC2D1F6FD70D0066F44E /* Cells */,
 				CD46126B1F5867AD006C1ECB /* Assets.xcassets */,
 				CD46126D1F5867AD006C1ECB /* LaunchScreen.storyboard */,
 				CD4612701F5867AD006C1ECB /* Info.plist */,
+				CD89309B1F5F4B0500B39C1A /* Models */,
+				CDBDEC321F6FDE740066F44E /* Scopes */,
 			);
 			path = Quest;
 			sourceTree = "<group>";
@@ -125,6 +160,51 @@
 			path = QuestUITests;
 			sourceTree = "<group>";
 		};
+		CD5EA340BBCF27FA589BD34E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE74472752439F215CEAB16A /* Pods_Quest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD89309B1F5F4B0500B39C1A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD8930991F5F3E7D00B39C1A /* takenModel.swift */,
+				CD93BEB11F6FC82600E2791E /* ProjectVars.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CD9C69781F731C58003C9793 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD4612661F5867AD006C1ECB /* ViewController.swift */,
+				CD8930971F5F25B700B39C1A /* MainScreen.swift */,
+				CDCF14271F7066B6007B8245 /* QuestDetailController.swift */,
+				CD9C69761F731C42003C9793 /* GameViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CDBDEC2D1F6FD70D0066F44E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CDBDEC2E1F6FD9290066F44E /* QuestTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		CDBDEC321F6FDE740066F44E /* Scopes */ = {
+			isa = PBXGroup;
+			children = (
+				CDBDEC301F6FDCE40066F44E /* Quests_list.swift */,
+				CDBDEC331F6FF0880066F44E /* MarkersScope.swift */,
+			);
+			name = Scopes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD4612891F5867AE006C1ECB /* Build configuration list for PBXNativeTarget "Quest" */;
 			buildPhases = (
+				1E103A16DBBA2AE25FF46C84 /* [CP] Check Pods Manifest.lock */,
 				CD46125D1F5867AD006C1ECB /* Sources */,
 				CD46125E1F5867AD006C1ECB /* Frameworks */,
 				CD46125F1F5867AD006C1ECB /* Resources */,
+				E12FEA5348B01CEDC6E904C7 /* [CP] Embed Pods Frameworks */,
+				6EA156A5C3812E9A61885AEC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +340,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E103A16DBBA2AE25FF46C84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6EA156A5C3812E9A61885AEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quest/Pods-Quest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E12FEA5348B01CEDC6E904C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quest/Pods-Quest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD46125D1F5867AD006C1ECB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD9C69771F731C42003C9793 /* GameViewController.swift in Sources */,
+				CD8930981F5F25B700B39C1A /* MainScreen.swift in Sources */,
 				CD4612671F5867AD006C1ECB /* ViewController.swift in Sources */,
+				CDBDEC2F1F6FD9290066F44E /* QuestTableViewCell.swift in Sources */,
 				CD4612651F5867AD006C1ECB /* AppDelegate.swift in Sources */,
+				CDBDEC341F6FF0880066F44E /* MarkersScope.swift in Sources */,
+				CDBDEC311F6FDCE40066F44E /* Quests_list.swift in Sources */,
+				CD93BEB21F6FC82600E2791E /* ProjectVars.swift in Sources */,
+				CDCF14281F7066B6007B8245 /* QuestDetailController.swift in Sources */,
+				CD89309A1F5F3E7D00B39C1A /* takenModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +554,7 @@
 		};
 		CD46128A1F5867AE006C1ECB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C127C9F8399660AC23BB1E9 /* Pods-Quest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LQFML9N332;
@@ -428,6 +568,7 @@
 		};
 		CD46128B1F5867AE006C1ECB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5466ACB66067A91ED325EC8 /* Pods-Quest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LQFML9N332;
@@ -516,6 +657,7 @@
 				CD46128B1F5867AE006C1ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD46128C1F5867AE006C1ECB /* Build configuration list for PBXNativeTarget "QuestTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +666,7 @@
 				CD46128E1F5867AE006C1ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD46128F1F5867AE006C1ECB /* Build configuration list for PBXNativeTarget "QuestUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +675,7 @@
 				CD4612911F5867AE006C1ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
